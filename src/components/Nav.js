@@ -7,7 +7,7 @@ export default function Nav({mode, setMode}) {
 
     return (
         <>
-            <nav className="sm:flex-row sm:justify-between gap-4 p-4 flex flex-col items-center bg-[#FEFEFE] drop-shadow-xl text-gray-800">
+            <nav className="sm:flex-row sm:justify-between w-full gap-4 p-4 flex flex-col items-center bg-[#FEFEFE] drop-shadow-xl text-gray-800 sticky top-0">
                 <Link to="/" className="font-bold">Logo</Link>
                 <div className="sm:flex-row flex flex-col gap-4 items-center">
                     <Link 

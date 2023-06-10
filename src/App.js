@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Layout mode={mode} setMode={setMode}>
         <Routes>
-          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/" element={<Home mode={mode}></Home>}></Route>
           <Route path="/about" element={<About></About>}></Route>
         </Routes>
       </Layout>
