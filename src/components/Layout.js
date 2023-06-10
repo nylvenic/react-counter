@@ -1,7 +1,8 @@
-import Nav from './Nav';
+import Nav from "./Nav"
 
-export default function Layout() {
+export default function Layout({children}) {
     return (<>
         <Nav></Nav>
+        {children}
     </>)
 }
