@@ -1,6 +1,4 @@
-import { Routes, Route, Link } from 'react-router-dom';
-import About from '../pages/About';
-import Home from '../pages/Home';
+import { Link } from 'react-router-dom';
 
 export default function Nav() {
     return (
@@ -13,10 +11,6 @@ export default function Nav() {
                     <button>Decrement</button>
                 </div>
             </nav>
-            <Routes>
-                <Route path="/" element={<Home></Home>}></Route>
-                <Route path="/about" element={<About></About>}></Route>
-            </Routes>
         </>
     );
 }
